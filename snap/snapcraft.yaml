@@ -21,3 +21,4 @@ parts:
       - g++
       - build-essential
       - git
+      - libgtest-dev
