@@ -38,5 +38,7 @@ if (CMAKE_BUILD_TYPE STREQUAL "Debug")
     endif()
 endif()
 
+enable_testing()
+
 add_subdirectory(src)
 add_subdirectory(tests)
