@@ -16,7 +16,8 @@ parts:
     plugin: cmake
     source-type: git
     source: https://github.com/heysion/snap-demo-cpp.git
-    build-package:
+    build-packages:
       - cmake
       - g++
       - build-essential
+      - git
