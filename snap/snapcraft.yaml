@@ -12,6 +12,10 @@ grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  deepin-dde:
+    plugin: cmake
+    source-type: git
+    source: https://github.com/heysion/snap-demo-cpp.git
+    build-package:
+            - cmake
+            - g++
